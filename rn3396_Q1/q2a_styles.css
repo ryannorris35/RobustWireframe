@@ -1,0 +1,95 @@
+body {
+	margin-top: 14px; /*Margin added*/
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-bottom:14px;   
+	} /*close tag*/
+
+	
+.form-group {
+	margin-bottom: 15px;
+	font-family: Century Gothic, Verdana, sans-serif; /*Added*/
+
+
+}
+
+.ourchead {
+	width: 480px; /*Semi colon added*/
+	padding: 1px;
+	height: 35px; /*Adjusted, Semi colon added*/
+	margin-left: 200px; /*space added*/
+	margin-right:20px;
+	margin-top: 15px; /*added for better flow*/
+	font-family: Century Gothic, Verdana, sans-serif; /*Added*/
+	font-size: 30px;
+	text-align: center;
+}
+
+.navbar { /*Tabbed 'open bracket' up a line for presentation*/
+	width: 480px; /*Semi colon added*/
+	padding: 1px;
+	height: 35px; /*Adjusted, Semi colon added*/
+	margin-left: 215px; /*space added*/
+	margin-right:20px;
+	margin-top: 15px; /*added for better flow*/
+	font-family: Century Gothic, Verdana, sans-serif; /*Added*/
+	font-size: 14px;
+
+}
+
+#Sponsored { /*Tabbed open bracket up for presentation*/
+	position: absolute; left: 30px; top: 97px;
+    width: 145px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1px;
+    text-align: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#sectionhome {
+	position: absolute; left: 222px; top: 110px; /* DONT CHANGE THIS*/
+	padding: 1px;
+	border: 1px;
+	margin-left: 5px; /*space added*/
+	width:640px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: left;
+}
+
+#sectionhome2 {
+	position: absolute; left: 222px; top: 110px;/* Added for easier/differnt page layout (DataPage)*/
+	padding: 1px;
+	border: 1px;
+	margin-left: 5px; /*space added*/
+	width:640px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: left;
+}
+
+#landscape {
+	
+	position: relative; left: 95px; top: 10px; /* Added for better typography*/
+	padding: 15px;
+	border: 1px;
+	margin-left: 5px; /*space added*/
+	width:640px;
+}
+
+.table, th, td {
+	text-align: center; /* Table created and formatted */ 
+}
+
+.footer {
+	position: absolute; top: 640px;
+	width: 580px;
+	height:60px;
+	text-align:center;
+	font-size:10px;
+	padding-top:54px;
+	padding-bottom: 24px;
+}
+

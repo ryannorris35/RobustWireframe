@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>OURC Sign up</title>
+  <!--Better font and formating needed  -->
+  <meta name="keywords" content="Open University Running Club (OURC) " /><!-- Keywords added  -->
+  <meta name="description" content="The Open University Running Club is proud to present the newly developed website" />
+  <!-- Text added -->
+  <meta name="author" content="Ryan Norris" />
+  <!--Author name changed  -->
+  <link rel="stylesheet" href="q2a_styles.css" />
+  <!--CSS link added  -->
+
+</head>
+
+<body>
+  <!--Bordering and Padding added-->
+
+  <header class="ourchead">Open University Running Club </header>
+  <!--Font and formating added  -->
+
+
+  <div id="Sponsored">
+    <h3>Website Links (When loggen in)</h3>
+    <!--better positioning added along with h3 tag  -->
+    <a href="OURC_landing_page.html">Home</a><br />
+    <a href="OURC_planned_walks.html">Planned Walks</a><br />
+    <a href="OURC_news.html">News</a><br />
+    <a href="OURC_other_events.html">Other Events</a><br />
+    <a href="OURC_Log_in_form.html">Log Out</a><br />
+    <br />
+    <a href="q2a.html">Admin Page (q2a)</a><br />
+  </div>
+
+  <nav class="navbar">
+    <!--Navbar updated with working anchors relevant to the on-screen text. -->
+    <a href="OURC_Log_in_form.html">Log In</a> |
+    <a href="OURC_Sign_up_form2.html">Sign Up</a> |
+  </nav>
+
+
+    <section id="sectionhome">
+      <!-- removed' White Space' between words-->
+      <h3>Log In / Sign Up</h3> <!-- Added a header -->
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <p></p>
+        <div class="form-group">
+          <label for="first_name">First Name*:</label>
+          <input id="first_name" name="first_name" type="text">
+        </div>
+        <div class="form-group">
+          <label for="last_name">Last Name*: </label>
+          <input id="last_name" name="last_name" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email*: </label>
+          <input id="email" name="email" type="email">
+        </div>
+        <div class="form-group">
+          <label for="email-conf">Re-type Email*: </label>
+          <input id="email-conf" name="email-conf" type="email">
+        </div>
+        <div class="form-group">
+          <label for="password"> Password: </label>
+          <input id="password" name="password" type="password">
+        </div>
+        <div class="form-group">
+          <label for="password-conf">Re-Type Password: </label>
+          <input id="password-conf" name="password-conf" type="password">
+        </div>
+        </div>
+      </fieldset>
+      <p></p>
+      </form>
+
+      <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+        <fieldset>
+          <legend>Consent</legend>
+          <input type="checkbox" name="guidelines" value="guidelines"> I Consent to the OURC Rules and Guidelines<br>
+          <input type="checkbox" name="updates" value="updates"> I Want to Recieve Updates on OURC Events <br>
+          <p></p>
+          <input type="submit" value="Submit">
+          </div>
+        </fieldset>
+      </form>
+
+      <footer class="footer">
+        <!--changed footer ID to Class for multiple page use) -->
+        <a href="">Privacy</a> |
+        <a href="">Contact</a> |
+        <a href="">FAQs</a> |
+        <a href="">Copyright</a> |
+        <a href="">Conditions of use</a> |
+        <a href="">2018 Ryan O Norris</a>
+      </footer>
+    </section>
+
+</body>
+
+</html>

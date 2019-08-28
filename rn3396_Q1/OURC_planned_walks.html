@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--Document type added, standard compliance -->
+<html lang="en">
+<!--Written language indication added -->
+
+<head>
+  <meta charset="utf-8" />
+  <title>Planned Walks</title>
+  <meta name="keywords" content="Open University Running Club (OURC)" />
+  <!--Meta keyword added -->
+  <meta name="description" content="he Open University Running Club Data Page" />
+  <!--Meta description added -->
+  <meta name="author" content="Ryan Norris" />
+  <!--Meta Author added -->
+  <link rel="stylesheet" href="q2a_styles.css" />
+  <!--stylesheet link added  -->
+</head>
+
+<body>
+  <!--Bordering and Padding added-->
+
+  <header class="ourchead">Open University Running Club</header>
+  <!--Font and formating added  -->
+
+  <nav class="navbar">
+    <!--Navbar updated with working anchors relevant to the on-screen text. -->
+    <a href="OURC_landing_page.html">Home</a> |
+    <a href="OURC_planned_walks.html">Planned Walks</a> |
+    <a href="OURC_news.html">News</a> |
+    <a href="OURC_other_events.html">Other Events</a> |
+    <a href="OURC_Log_in_form.html">Log Out</a> |
+  </nav>
+
+
+  <section id="Sponsored">
+    <h3>Sponsored links</h3>
+    <!--better positioning added along with h3 tag  -->
+    <a href="http://www.parkrun.org.uk/miltonkeynes/home">Parkrun</a><br />
+    <a href="http://www.mkhalf.co.uk">Half Marathon</a><br />
+    <a href="http://www.mkac.org.uk/">Athletic Club</a><br />
+    <a href="http://www.mkweb.co.uk/sport/">MK Sports</a><br />
+    <!--Not Working, 404 error*/ -->
+    <a href="http://www.bigfunrun.com/">Big Fun Run</a><br />
+    <a href="http://www.thefixevents.com/content/events/">Events</a>
+  </section>
+
+  <section id="sectionhome2">
+    <!-- removed' White Space' between words-->
+    <div>
+      <h3>Running Club Data Page</h3> <!-- Added a header -->
+      <p> Add an event below </p>
+    </div>
+
+  <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+    <fieldset>
+      <legend>Add Walk</legend>
+      <p></p>
+      <div class="form-group">
+        <label for="first_name">First Name*:</label>
+        <input id="first_name" name="first_name" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="date">Last Name*: </label>
+        <input id="date" name="date" type="date">
+      </div>
+
+      <div class="form-group">
+        <label for="stat_time">Start Time*: </label>
+        <input id="stat_time" name="stat_time" type="time">
+      </div>
+
+      <div class="form-group">
+        <label for="meeting_point">Meeting Point*: </label>
+        <input id="meeting_point" name="meeting_point" type="text">
+      </div>
+
+      <div class="form-group">
+        <label for="distance">Distance in mi: </label>
+        <input id="distance" name="distance" type="number">
+      </div>
+
+      <div class="form-group">
+        <label for="notes"> Notes: </label>
+        <input id="notes" name="notes" type="text">
+      </div>
+
+      <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+  <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+    <fieldset>
+    
+      <legend>Planned Walks</legend>
+      <p></p>
+    
+      </div>
+
+        Walk
+        Event 1, Taking place in X, Y, Z
+       
+    
+     
+      <div>
+        <input type="radio" id="pending1" name="drone" value="pending" checked>
+        <label for="pending1">Pending</label>
+        <input type="radio" id="accept1" name="drone" value="accept">
+        <label for="accept1">Accepted</label>
+        <br>
+        <input type="radio" id="select_delete1" name="drone" value="select_delete1">
+        <label for="select_delete1">Remove</label>
+          <button name="Delete_button">Delete:</button>
+      </div>
+
+      <br>
+     
+        Walk
+        Event 2, Taking place in X, Y, Z
+      
+       
+     
+      <div>
+        <input type="radio" id="pending2" name="drone" value="pending">
+        <label for="pending2">Pending</label>
+        <input type="radio" id="accept2" name="drone" value="accept">
+        <label for="accept2">Accepted</label>
+        <br>
+        <input type="radio" id="select_delete2" name="drone" value="select_delete2">
+        <label for="select_delete2">Remove</label>
+        <button name="Delete_button">Delete:</button>
+      </div>
+     
+      <br>
+      </div>
+    </fieldset>
+  </form>
+
+
+
+    <footer class="footer">
+      <!--changed footer ID to Class for multiple page use) -->
+      <a href="">Privacy</a> |
+      <a href="">Contact</a> |
+      <a href="">FAQs</a> |
+      <a href="">Copyright</a> |
+      <a href="">Conditions of use</a> |
+      <a href="">2018 Ryan O Norris</a>
+    </footer>
+  </section>
+
+</body>
+
+</html>

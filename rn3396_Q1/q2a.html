@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>OURC Admin Editing Page</title>
+    <meta name="keywords" content="Open University Running Club (OURC) " /><!-- Keywords added  -->
+    <meta name="description"
+        content="The Open University Running Club is proud to present the newly developed website" />
+    <!-- Text added -->
+    <meta name="author" content="Ryan Norris" />
+    <!--Author name changed  -->
+    <link rel="stylesheet" href="q2a_styles.css" />
+</head>
+
+<body>
+    <header class="ourchead">Open University Running Club</header>
+    <!--Font and formating added  -->
+
+    <nav class="navbar">
+        <!--Navbar updated with working anchors relevant to the on-screen text. -->
+        <a href="OURC_landing_page.html">Home</a> |
+        <a href="OURC_planned_walks.html">Planned Walks</a> |
+        <a href="OURC_news.html">News</a> |
+        <a href="OURC_other_events.html">Other Events</a> |
+        <a href="OURC_Log_in_form.html">Log Out</a> |
+        <br>
+
+    </nav>
+
+    <!-- <aside> tag removed -->
+    <div id="Sponsored">
+        <h3>Sponsored links</h3>
+        <!--better positioning added along with h3 tag  -->
+        <a href="http://www.parkrun.org.uk/miltonkeynes/home">Parkrun</a><br />
+        <a href="http://www.mkhalf.co.uk">Half Marathon</a><br />
+        <a href="http://www.mkac.org.uk/">Athletic Club</a><br />
+        <a href="http://www.mkweb.co.uk/sport/">MK Sports</a><br />
+        <!--Not Working, 404 error*/ -->
+        <a href="http://www.bigfunrun.com/">Big Fun Run</a><br />
+        <a href="http://www.thefixevents.com/content/events/">Events</a><br />
+    </div>
+    
+    <!--CSS Style Sheet added for Applications use only-->
+    <section id="sectionhome2">
+        <form action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post">
+            <fieldset>
+                <legend>Add Walk Event</legend>
+
+                <div class="form-group">
+                    <label for="first_name">First Name:</label>
+                    <input id="first_name" name="first_name" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name: </label>
+                    <input id="last_name" name="last_name" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date: </label>
+                    <input id="date" name="date" type="date">
+                </div>
+                <div class="form-group">
+                    <label for="stat_time">Start Time: </label>
+                    <input id="stat_time" name="stat_time" type="time">
+                </div>
+                <div class="form-group">
+                    <label for="meeting_point">Meeting Point: </label>
+                    <input id="meeting_point" name="meeting_point" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="distance_in_miles">Distance (mi): </label>
+                    <input id="distance_in_miles" name="distance_in_miles" type="number">
+                    
+                    <div class="form-group">
+                        <button name="Submitbutton">Submit:</button>
+                    
+                    </div>
+
+                </div>
+          
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Even Status</legend>
+            
+
+                    <br>
+                 
+                        <div><select name="walks">
+                                <option value="walks">Walk Event 1</option>
+                                <option value="walks">Walk Event 2</option>
+                                <option value="walks">Walk Event 3</option>
+                                <option value="walks">Walk Event 4</option>
+
+                            </select>
+                            <br>
+                            <br>
+                            <input type="checkbox" id="delete" name="drone" value="delete">
+                            <label for="delete">Delete</label>
+                            <input type="checkbox" id="accept" name="drone" value="accept">
+                            <label for="accept">Accept</label>
+                        </div>
+
+                        <div class="form-group">
+                            <br>
+                            <button name="Submitbutton">Submit:</button>
+
+                        </div>
+            </fieldset>
+
+            <br>
+            <fieldset>
+                <legend>Email Announcments</legend>
+                <div class="form-group">
+   
+                    <label> Attachments button will be added with JaveScript:</label>
+                    <textarea name="Email" rows="12" cols="90"></textarea>
+
+                    
+                        <button name="Submitbutton">Submit:</button>
+                      
+
+                            <input type="hidden" id="sessionID" name="sessionID" value="12345678-09ab-1111-cdef">
+                            <!-- hidden field added Q2a -->
+                    </div>
+            </fieldset>
+        </form>
+    </section>
+
+</body>
+
+</html>
